@@ -13,7 +13,7 @@ export default function ForgotPassword() {
   };
 
   const sendOtp = async () => {
-    const res = await fetch("http://localhost:5000/send-otp", {
+    const res = await fetch("https://e-commerce-uwpk.onrender.com/send-otp", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

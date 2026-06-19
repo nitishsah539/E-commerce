@@ -28,7 +28,7 @@ const orderData = {
   paymentMethod: "COD",
   paymentStatus: "pending"
 };
-  await fetch("http://localhost:5000/api/order/create", {
+  await fetch("https://e-commerce-uwpk.onrender.com/api/order/create", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"

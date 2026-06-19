@@ -6,7 +6,7 @@ export default function ShopSelect() {
   const [shops, setShops] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/auth/shops")
+    fetch("https://e-commerce-uwpk.onrender.com/api/auth/shops")
       .then(res => res.json())
       .then(data => setShops(data));
   }, []);

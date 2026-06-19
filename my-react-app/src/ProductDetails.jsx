@@ -52,7 +52,7 @@ export default function ProductDetails() {
         {/* IMAGE */}
         <div className="flex flex-col items-center w-full md:w-1/2">
           <img
-            src={`http://localhost:5000/uploads/${product.image}`}
+            src={`https://e-commerce-uwpk.onrender.com/uploads/${product.image}`}
             alt={product.name}
             className="h-40 md:h-60 object-contain"
           />

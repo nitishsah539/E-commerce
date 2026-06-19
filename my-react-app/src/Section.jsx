@@ -132,7 +132,7 @@ function flyToCart(e) {
         <div className="mt-6 md:mt-0 flex flex-col items-center">
 
           <img
-            src={`http://localhost:5000/uploads/${product.image}`}
+            src={`https://e-commerce-uwpk.onrender.com/uploads/${product.image}`}
             className="h-32 md:h-44 object-contain drop-shadow-xl"
           />
 

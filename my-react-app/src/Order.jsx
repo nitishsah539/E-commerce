@@ -10,7 +10,7 @@ export default function Order() {
   useEffect(() => {
     async function loadOrders() {
       try {
-        const res = await axios.get("http://localhost:5000/api/orders/orders");
+        const res = await axios.get("https://e-commerce-uwpk.onrender.com/api/orders/orders");
         setOrders(res.data);
       } catch (err) {
         console.log(err);
