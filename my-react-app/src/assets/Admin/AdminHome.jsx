@@ -64,6 +64,9 @@ export default function AdminHome() {
               <h1 className="text-center font-bold text-green-600">
                 ₹{product.price}
               </h1>
+              <h1 className="text-center font-bold text-green-600">
+                {product.weight}
+              </h1>
 
               <div className="flex justify-center gap-2 mt-3">
 

@@ -82,7 +82,7 @@ export default function AdminAddProduct({ setProducts }) {
 
       <button type="submit"
         onClick={handleSubmit}
-        className="bg-green-600 text-white w-full py-2 rounded-lg"
+        className="bg-green-600 text-white w-full py-2  rounded-lg"
       >
         Add Product
       </button>
